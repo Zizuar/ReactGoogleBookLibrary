@@ -27,7 +27,7 @@ function AppRouter() {
       <Switch>
         <Route path="/" exact component={Books} />
         <Route path="/books/" component={Books} />
-        <Route path="/books:id" component={Detail} />
+        <Route path="/books" component={Detail} />
         <Route component={NoMatch} />
       </Switch>
       </div>
